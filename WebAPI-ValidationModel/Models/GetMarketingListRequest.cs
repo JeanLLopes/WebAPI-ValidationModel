@@ -1,4 +1,4 @@
-﻿namespace WebAPI_ValidationModel.Controllers
+﻿namespace WebAPI_ValidationModel.Models
 {
     public class GetNextEventRequest
     {

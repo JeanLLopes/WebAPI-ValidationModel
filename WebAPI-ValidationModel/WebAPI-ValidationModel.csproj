@@ -87,8 +87,9 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
-    <Compile Include="Controllers\GetMarketingListRequest.cs" />
-    <Compile Include="Controllers\GetSportListDesktopRequest.cs" />
+    <Compile Include="ModelStateValidationActionFilterAttribute.cs" />
+    <Compile Include="Models\GetMarketingListRequest.cs" />
+    <Compile Include="Models\GetSportListDesktopRequest.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -105,7 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
