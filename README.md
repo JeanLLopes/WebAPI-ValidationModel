@@ -17,3 +17,5 @@ Feito isso, basta apenas decorar os métodos:
 
 
 Ou você pode apenas usar o atributo antes da declaração da classe e todos os métodos do controller irão herdar essa propriedade.
+
+<a href="https://medium.com/@thiagoloureiro/validando-models-em-webapis-e2471949b49c">https://medium.com/@thiagoloureiro/validando-models-em-webapis-e2471949b49c</a>
